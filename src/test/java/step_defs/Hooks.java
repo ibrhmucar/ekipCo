@@ -17,7 +17,7 @@ public class Hooks {
 
     @Before
     public void setUp(Scenario scenario) {
-
+        System.setProperty("webdriver.http.factory", "jdk-http-client");
         Driver.get().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         Driver.get().manage().window().maximize();
         Log4j.startLog("Test is Starting");

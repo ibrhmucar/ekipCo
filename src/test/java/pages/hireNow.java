@@ -11,7 +11,12 @@ public class hireNow extends BasePage{
     public WebElement emailInputBox;
 
     @FindBy (xpath = "//input[@placeholder='Enter other skills']")
+
     public WebElement enterOtherSkillsBox;
+
+    @FindBy (id= "full-name")
+    public WebElement nameSurname;
+
 
 
     public WebElement selectSkills(String skills){

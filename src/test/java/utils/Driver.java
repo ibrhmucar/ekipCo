@@ -11,7 +11,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
@@ -71,11 +70,7 @@ public class Driver {
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driver = new SafariDriver();
                     break;
-                case "opera":
-                    WebDriverManager.operadriver().setup();
-                    driver= new OperaDriver();
-                    break;
-            }
+                }
 
         }
 
