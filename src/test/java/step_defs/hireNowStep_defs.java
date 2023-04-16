@@ -31,6 +31,7 @@ public class hireNowStep_defs {
             mainPage.choiceEnglish.click();
             System.out.println("actualLanguage = " + actualLanguage);
         }
+
         BrowserUtils.waitFor(1);
         mainPage.enterYourWorkEmail.click();
         mainPage.enterYourWorkEmail.sendKeys(EnvUtil.getFromEnv("mail"));
