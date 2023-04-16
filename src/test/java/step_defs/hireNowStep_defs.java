@@ -17,6 +17,7 @@ public class hireNowStep_defs {
 
     @Given(": User on the main URL")
     public void userOnTheMainURL() {
+
         String url = EnvUtil.getFromEnv("url");
         Driver.get().get(url);
 
@@ -24,6 +25,7 @@ public class hireNowStep_defs {
 
     @Given(": User should be able to write work mail to enter your work email space")
     public void userShouldBeAbleToWriteWorkMailToEnterYourWorkEmailSpace() {
+
         String actualLanguage = mainPage.language.getText();
 
         if(actualLanguage.equals("TR")){
@@ -47,6 +49,7 @@ public class hireNowStep_defs {
 
     @And(": User should be able to see the next page to continue to fill information")
     public void userShouldBeAbleToSeeTheNextPageToContinueToFillInformation() {
+
         BrowserUtils.waitFor(1);
         String actualUrl = Driver.get().getCurrentUrl();
         Assert.assertTrue(actualUrl.contains("gmail.com"));
@@ -55,6 +58,7 @@ public class hireNowStep_defs {
 
     @Given(": User should be able to see mail addresses in the email box")
     public void userShouldBeAbleToSeeMailAddressesInTheEmailBox() {
+
         String actualMail = hireNow.emailInputBox.getAttribute("value");
         Assert.assertTrue(actualMail.equals(EnvUtil.getFromEnv("mail")));
 
@@ -62,6 +66,7 @@ public class hireNowStep_defs {
 
     @Then(": User should be able to select skills")
     public void userShouldBeAbleToSelectSkills() {
+
         hireNow.selectSkills("Android").click();
         hireNow.selectSkills("Angular").click();
         hireNow.clickButton("Continue").click();
