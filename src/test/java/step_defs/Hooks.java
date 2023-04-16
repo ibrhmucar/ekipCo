@@ -1,6 +1,7 @@
 package step_defs;
 
 
+import groovy.util.logging.Log;
 import utils.Log4j;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -21,8 +22,7 @@ public class Hooks {
         Driver.get().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         Driver.get().manage().window().maximize();
         Log4j.startLog("Test is Starting");
-        System.out.println(scenario.getName());
-
+        Log4j.info(scenario.getName());
 
     }
 
@@ -36,12 +36,11 @@ public class Hooks {
             TakesScreenshot ts = (TakesScreenshot) Driver.get();
             byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName());
-            Log4j.info(scenario.getName());
         }
 
         Log4j.endLog("Test is Ending");
-        System.out.println(scenario.getName());
-        System.out.println(scenario.getStatus());
+        Log4j.info(scenario.getStatus().toString());
+
 
         Driver.closeDriver();
     }
