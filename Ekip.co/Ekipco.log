@@ -1,0 +1,85 @@
+16-04-2023 15:55:09 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 15:55:09 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 15:55:10 - Test is Starting...
+16-04-2023 15:55:18 - Test is Ending...
+16-04-2023 15:57:08 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 15:57:08 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 15:57:09 - Test is Starting...
+16-04-2023 15:57:34 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 15:57:34 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 15:57:35 - Test is Starting...
+16-04-2023 15:57:43 - User should be able to complete hire now step successfully
+16-04-2023 15:57:43 - Test is Ending...
+16-04-2023 16:03:54 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:03:54 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:03:56 - Test is Starting...
+16-04-2023 16:03:56 - User should be able to complete hire now step successfully
+16-04-2023 16:04:50 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:04:50 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:04:52 - Test is Starting...
+16-04-2023 16:04:52 - User should be able to complete hire now step successfully
+16-04-2023 16:04:59 - User should be able to complete hire now step successfully
+16-04-2023 16:04:59 - Test is Ending...
+16-04-2023 16:04:59 - User should be able to complete hire now step successfully
+16-04-2023 16:04:59 - PASSED
+16-04-2023 16:07:14 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:07:14 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:07:15 - Test is Starting...
+16-04-2023 16:07:15 - User should be able to complete hire now step successfully
+16-04-2023 16:07:15 - PASSED
+16-04-2023 16:07:28 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:07:28 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:07:30 - Test is Starting...
+16-04-2023 16:07:30 - User should be able to complete hire now step successfully
+16-04-2023 16:07:30 - PASSED
+16-04-2023 16:07:38 - User should be able to complete hire now step successfully
+16-04-2023 16:07:38 - Test is Ending...
+16-04-2023 16:07:38 - PASSED
+16-04-2023 16:12:07 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:12:07 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:12:08 - Test is Starting...
+16-04-2023 16:12:08 - User should be able to complete hire now step successfully
+16-04-2023 16:12:16 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:12:16 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:12:18 - Test is Starting...
+16-04-2023 16:12:18 - User should be able to complete hire now step successfully
+16-04-2023 16:12:26 - User should be able to complete hire now step successfully
+16-04-2023 16:12:26 - Test is Ending...
+16-04-2023 16:12:26 - PASSED
+16-04-2023 16:13:12 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:13:12 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:13:13 - Test is Starting...
+16-04-2023 16:13:13 - User should be able to complete hire now step successfully
+16-04-2023 16:13:33 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:13:33 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:13:34 - Test is Starting...
+16-04-2023 16:13:34 - User should be able to complete hire now step successfully
+16-04-2023 16:13:41 - Test is Ending...
+16-04-2023 16:13:41 - PASSED
+16-04-2023 16:16:37 - No test suite found. Nothing to run
+16-04-2023 16:16:37 - /Users/ibrahimucar/IdeaProjects/ekipCo/target/surefire-reports/testng.css (No such file or directory)
+java.io.FileNotFoundException: /Users/ibrahimucar/IdeaProjects/ekipCo/target/surefire-reports/testng.css (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.testng.internal.Utils.writeResourceToFile(Utils.java:279)
+	at org.testng.reporters.HtmlHelper.generateStylesheet(HtmlHelper.java:31)
+	at org.testng.reporters.SuiteHTMLReporter.generateReport(SuiteHTMLReporter.java:53)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+16-04-2023 16:16:38 - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+16-04-2023 16:16:38 - Using chromedriver 112.0.5615.49 (resolved driver for Chrome 112)
+16-04-2023 16:16:38 - Exporting webdriver.chrome.driver as /Users/ibrahimucar/.cache/selenium/chromedriver/mac-arm64/112.0.5615.49/chromedriver
+16-04-2023 16:16:39 - Test is Starting...
+16-04-2023 16:16:39 - User should be able to complete hire now step successfully
+16-04-2023 16:16:47 - Test is Ending...
+16-04-2023 16:16:47 - PASSED

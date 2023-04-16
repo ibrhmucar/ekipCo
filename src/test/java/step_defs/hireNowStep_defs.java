@@ -3,7 +3,9 @@ package step_defs;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import pages.hireNow;
 import pages.mainPage;
 import utils.BrowserUtils;
@@ -72,5 +74,40 @@ public class hireNowStep_defs {
         hireNow.clickButton("Continue").click();
         BrowserUtils.waitFor(5);
 
+    }
+
+    @Then(": User should be able to and submit application successfully")
+    public void userShouldBeAbleToAndSubmitApplicationSuccessfully() {
+
+        BrowserUtils.waitForVisibility(hireNow.thankYouMessage, 5);
+        String actualMessage = hireNow.thankYouMessage.getText();
+        String expectedMessage = "Thank You!";
+        Assert.assertTrue(actualMessage.equals(expectedMessage));
+
+
+
+    }
+
+    @And(": User should be able to feel {string} {string} {string} and {string} information")
+    public void userShouldBeAbleToFeelAndInformation(String fullName, String phone, String website, String size) {
+        hireNow.nameSurname.sendKeys(fullName);
+        hireNow.phoneNumber.sendKeys(phone);
+        hireNow.website.sendKeys(website);
+        hireNow.companySizeClick.click();
+        hireNow.companySize(size);
+        BrowserUtils.waitFor(1);
+        BrowserUtils.waitFor(1);
+        hireNow.clickButton("Next").click();
+
+
+    }
+
+    @When(": User try to create booking")
+    public void userTryToCreateBooking() {
+
+    }
+
+    @Then(": User should be able to see the booking page")
+    public void userShouldBeAbleToSeeTheBookingPage() {
     }
 }
